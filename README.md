@@ -40,10 +40,10 @@ Here are a few lambda fuctions that the app uses. I use node-lambda to test thes
 
 This responds to the IP sync request. If the user is authenticated, and the IP changes, the lambda will call Route53, and change the record. 
 
-More details [here](https://github.com/chadmott/lambdas)
+More details [here](https://github.com/chadmott/lambdas/tree/master/ipsync-server)
 
 ### API Responder
 
 This handles the alexa commands. This is experimental/demo. 
 
-More details [here](https://github.com/chadmott/lambdas)
+More details [here](https://github.com/chadmott/lambdas/tree/master/apiCaller)
